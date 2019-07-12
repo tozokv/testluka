@@ -202,7 +202,7 @@ GO
 ALTER TABLE [Sales].[SalesOrderHeader]
 	WITH CHECK
 	ADD CONSTRAINT [FK_SalesOrderHeader_CurrencyRate_CurrencyRateID]
-	FOREIGN KEY ([CurrencyRateID]) REFERENCES [Sales].[CurrencyRate] ([CurrencyRateID])
+	FOREIGN KEY ([CurrencyRateID]) REFERENCES [Sales].[rename] ([CurrencyRateID])
 ALTER TABLE [Sales].[SalesOrderHeader]
 	CHECK CONSTRAINT [FK_SalesOrderHeader_CurrencyRate_CurrencyRateID]
 
