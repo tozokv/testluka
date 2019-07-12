@@ -18,6 +18,7 @@ CREATE TABLE [Person].[Address] (
 		[ndsf]                [int] NULL,
 		[nasfw]               [int] NULL,
 		[nasf]                [int] NULL,
+		[afgnh]               [int] NULL,
 		CONSTRAINT [PK_Address_AddressID]
 		PRIMARY KEY
 		CLUSTERED
