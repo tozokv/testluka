@@ -8,6 +8,13 @@ CREATE TABLE [HumanResources].[EmployeePayHistory] (
 		[Rate]                 [money] NOT NULL,
 		[PayFrequency]         [tinyint] NOT NULL,
 		[ModifiedDate]         [datetime] NOT NULL,
+		[asd]                  [int] NULL,
+		[ghsdfh]               [int] NULL,
+		[hdfh]                 [int] NULL,
+		[sdfsg]                [int] NULL,
+		[dh]                   [int] NULL,
+		[dfh]                  [int] NULL,
+		[asdg]                 [int] NULL,
 		CONSTRAINT [PK_EmployeePayHistory_BusinessEntityID_RateChangeDate]
 		PRIMARY KEY
 		CLUSTERED

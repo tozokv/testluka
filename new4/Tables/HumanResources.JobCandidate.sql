@@ -7,6 +7,10 @@ CREATE TABLE [HumanResources].[JobCandidate] (
 		[BusinessEntityID]     [int] NULL,
 		[Resume]               [xml](CONTENT [HumanResources].[HRResumeSchemaCollection]) NULL,
 		[ModifiedDate]         [datetime] NOT NULL,
+		[asd]                  [int] NULL,
+		[sdg]                  [int] NULL,
+		[asfg]                 [int] NULL,
+		[as]                   [int] NULL,
 		CONSTRAINT [PK_JobCandidate_JobCandidateID]
 		PRIMARY KEY
 		CLUSTERED
